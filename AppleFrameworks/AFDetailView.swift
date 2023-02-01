@@ -10,6 +10,8 @@ import SwiftUI
 struct AFDetailView: View {
     
     var indexNum: Int
+    @Binding var isShowingDetailView: Bool
+    @State private var isShowingSafariView: Bool = false
     
     var body: some View {
         ZStack {
@@ -17,7 +19,7 @@ struct AFDetailView: View {
             VStack(alignment: .center, spacing: 16) {
                 HStack(alignment: .center) {
                     Button {
-                        
+                        isShowingDetailView = false
                     } label: {
                         Image(systemName: "xmark")
                             .foregroundColor(.white)
@@ -35,18 +37,21 @@ struct AFDetailView: View {
                     .padding()
                 Spacer()
                 Button {
-                    print("nyihahaha")
+                    isShowingSafariView = true
                 } label: {
                     AFButton(title: "Learn more")
                 }
             }
             .padding(.top, 64)
+            .fullScreenCover(isPresented: $isShowingSafariView) {
+                AFSafariView(url: (URL(string: AFMockData.AFFrameworks[indexNum].urlString) ?? URL(string: "https://developer.apple.com/augmented-reality/arkit"))!)
+            }
         }
     }
 }
 
 struct AFDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        AFDetailView(indexNum: 0)
+        AFDetailView(indexNum: 0, isShowingDetailView: .constant(false))
     }
 }

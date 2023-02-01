@@ -33,7 +33,7 @@ struct AFFrameworkGridView: View {
             }
             //.navigationTitle("🍎 Frameworks").foregroundColor(.white)
             .sheet(isPresented: $viewModel.isShowingDetailView) {
-                AFDetailView(indexNum: viewModel.selectedFrameworkIndex)
+                AFDetailView(indexNum: viewModel.selectedFrameworkIndex, isShowingDetailView: $viewModel.isShowingDetailView)
                     //AFMockData.AFFrameworks[viewModel.selectedFrameworkIndex].name
             }
         }

@@ -15,6 +15,7 @@
 		39B5AD1C298A8DEF00F9C79E /* AFDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5AD1B298A8DEF00F9C79E /* AFDetailView.swift */; };
 		39B5AD1E298A92EE00F9C79E /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5AD1D298A92EE00F9C79E /* AFButton.swift */; };
 		39B5AD20298A978900F9C79E /* AFFrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5AD1F298A978900F9C79E /* AFFrameworkGridViewModel.swift */; };
+		39BADEBD298ACC0900DCC372 /* AFSafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BADEBC298ACC0900DCC372 /* AFSafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		39B5AD1B298A8DEF00F9C79E /* AFDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFDetailView.swift; sourceTree = "<group>"; };
 		39B5AD1D298A92EE00F9C79E /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		39B5AD1F298A978900F9C79E /* AFFrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFFrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		39BADEBC298ACC0900DCC372 /* AFSafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFSafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				39B5AD19298A743800F9C79E /* AFFrameworkGridView.swift */,
 				39B5AD1F298A978900F9C79E /* AFFrameworkGridViewModel.swift */,
+				39BADEBC298ACC0900DCC372 /* AFSafariView.swift */,
 				39B5AD1D298A92EE00F9C79E /* AFButton.swift */,
 				39B5AD1B298A8DEF00F9C79E /* AFDetailView.swift */,
 				39B5AD09298A71F700F9C79E /* AppleFrameworksApp.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				39B5AD20298A978900F9C79E /* AFFrameworkGridViewModel.swift in Sources */,
 				39B5AD1A298A743800F9C79E /* AFFrameworkGridView.swift in Sources */,
+				39BADEBD298ACC0900DCC372 /* AFSafariView.swift in Sources */,
 				39B5AD0A298A71F700F9C79E /* AppleFrameworksApp.swift in Sources */,
 				39B5AD1C298A8DEF00F9C79E /* AFDetailView.swift in Sources */,
 				39B5AD1E298A92EE00F9C79E /* AFButton.swift in Sources */,
