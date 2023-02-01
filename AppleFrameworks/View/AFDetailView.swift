@@ -17,17 +17,7 @@ struct AFDetailView: View {
         ZStack {
             AFGradientBackgroundView()
             VStack(alignment: .center, spacing: 16) {
-                HStack(alignment: .center) {
-                    Button {
-                        isShowingDetailView = false
-                    } label: {
-                        Image(systemName: "xmark")
-                            .foregroundColor(.white)
-                            .imageScale(.large)
-                            .frame(width: 44, height: 44)
-                    }
-                    .padding(.top, -60)
-                }
+                AFXDismissButton(isShowingDetailView: $isShowingDetailView)
                 .padding(.leading, UIScreen.main.bounds.width - 60)
                 AFFrameworkTitleView(indexNum: indexNum)
                 Text(AFMockData.AFFrameworks[indexNum].description)

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 final class AFFrameworkGridViewModel: ObservableObject {
     
@@ -15,5 +16,7 @@ final class AFFrameworkGridViewModel: ObservableObject {
         }
     }
     @Published var isShowingDetailView: Bool = false
+    
+    let columns: [GridItem] = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
     
 }
