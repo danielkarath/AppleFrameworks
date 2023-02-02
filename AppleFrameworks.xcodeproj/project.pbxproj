@@ -15,6 +15,7 @@
 		39B5AD1C298A8DEF00F9C79E /* AFDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5AD1B298A8DEF00F9C79E /* AFDetailView.swift */; };
 		39B5AD1E298A92EE00F9C79E /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5AD1D298A92EE00F9C79E /* AFButton.swift */; };
 		39B5AD20298A978900F9C79E /* AFFrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5AD1F298A978900F9C79E /* AFFrameworkGridViewModel.swift */; };
+		39B9757D298C0EB6004F0EC6 /* AFFrameTitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B9757C298C0EB6004F0EC6 /* AFFrameTitleText.swift */; };
 		39BADEBD298ACC0900DCC372 /* AFSafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BADEBC298ACC0900DCC372 /* AFSafariView.swift */; };
 		39BADEC1298AD16F00DCC372 /* AFFrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BADEC0298AD16F00DCC372 /* AFFrameworkTitleView.swift */; };
 		39BADEC3298AD1F900DCC372 /* AFGradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BADEC2298AD1F900DCC372 /* AFGradientBackgroundView.swift */; };
@@ -31,6 +32,7 @@
 		39B5AD1B298A8DEF00F9C79E /* AFDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFDetailView.swift; sourceTree = "<group>"; };
 		39B5AD1D298A92EE00F9C79E /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		39B5AD1F298A978900F9C79E /* AFFrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFFrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		39B9757C298C0EB6004F0EC6 /* AFFrameTitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFFrameTitleText.swift; sourceTree = "<group>"; };
 		39BADEBC298ACC0900DCC372 /* AFSafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFSafariView.swift; sourceTree = "<group>"; };
 		39BADEC0298AD16F00DCC372 /* AFFrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFFrameworkTitleView.swift; sourceTree = "<group>"; };
 		39BADEC2298AD1F900DCC372 /* AFGradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFGradientBackgroundView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				39B5AD1D298A92EE00F9C79E /* AFButton.swift */,
 				39B5AD1B298A8DEF00F9C79E /* AFDetailView.swift */,
 				39BADEC7298AD2DC00DCC372 /* AFXDismissButton.swift */,
+				39B9757C298C0EB6004F0EC6 /* AFFrameTitleText.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				39B5AD1C298A8DEF00F9C79E /* AFDetailView.swift in Sources */,
 				39B5AD1E298A92EE00F9C79E /* AFButton.swift in Sources */,
 				39B5AD18298A724200F9C79E /* AFFramework.swift in Sources */,
+				39B9757D298C0EB6004F0EC6 /* AFFrameTitleText.swift in Sources */,
 				39BADEC1298AD16F00DCC372 /* AFFrameworkTitleView.swift in Sources */,
 				39BADEC3298AD1F900DCC372 /* AFGradientBackgroundView.swift in Sources */,
 			);

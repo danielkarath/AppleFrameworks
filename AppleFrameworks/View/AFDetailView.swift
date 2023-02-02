@@ -18,7 +18,7 @@ struct AFDetailView: View {
             AFGradientBackgroundView()
             VStack(alignment: .center, spacing: 16) {
                 AFXDismissButton(isShowingDetailView: $isShowingDetailView)
-                .padding(.leading, UIScreen.main.bounds.width - 60)
+                .padding(.leading, UIScreen.main.bounds.width - 72)
                 AFFrameworkTitleView(indexNum: indexNum)
                 Text(AFMockData.AFFrameworks[indexNum].description)
                     .font(.body)
